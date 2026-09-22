@@ -1,0 +1,528 @@
+{
+ "previews": [
+  {
+   "slug": "prudential",
+   "theme": "corporate",
+   "title": "Invest, Insure, Retire and Plan | Prudential Financial",
+   "desc": "Life insurance, retirement and investment solutions from Prudential Financial. Questions about your account? We're here to help — tap to reach support.",
+   "mark": "P",
+   "name": "Prudential Financial",
+   "tagline": "Invest &middot; Insure &middot; Retire &middot; Plan",
+   "site": "https://www.prudential.com",
+   "phone": null,
+   "pill": "Account help &middot; licensed advisors &middot; 145+ years of service",
+   "headline": "Protect your loved ones. Enjoy retirement on your terms.",
+   "lede": "Life insurance, retirement income and investment guidance from one of America's most trusted financial names — with a direct line for account questions.",
+   "cta_primary": "Book a call with an advisor",
+   "cta_secondary": [
+    "Account help online",
+    "https://www.prudential.com"
+   ],
+   "trust": [
+    "145+ years serving American families",
+    "Life, retirement &amp; investments in one place",
+    "Dedicated account-help line"
+   ],
+   "services_title": "What we help with",
+   "cards": [
+    {
+     "h": "Life Insurance",
+     "p": "Term and permanent coverage to protect the people who depend on you."
+    },
+    {
+     "h": "Retirement",
+     "p": "Pension, annuity and income solutions so retirement happens on your terms."
+    },
+    {
+     "h": "Investments",
+     "p": "Customized guidance to grow money and stay on plan through every market."
+    },
+    {
+     "h": "Account Help",
+     "p": "Questions about a policy, claim or statement? One tap reaches support."
+    }
+   ],
+   "locations": "National service &middot; account help via <a href=\"https://www.prudential.com\">prudential.com</a>",
+   "bar": {
+    "t": "Have questions about your account? We're here to help.",
+    "s": "Skip the search menus — reach account help directly online.",
+    "href": "https://www.prudential.com",
+    "cta": "Get account help"
+   }
+  },
+  {
+   "slug": "mydentisttucson",
+   "theme": "trust",
+   "title": "Trusted Dental Care in Tucson - Your Smile Matters!",
+   "desc": "Top-rated Tucson dentists. Family and general dentistry, emergencies welcome. Call 520-677-2357 — same-day appointments across North Tucson.",
+   "mark": "DT",
+   "name": "My Dentist Tucson",
+   "tagline": "Family &amp; general dentistry &middot; North Tucson",
+   "site": "https://mydentisttucson.com",
+   "phone": {
+    "dial": "520-677-2357",
+    "label": "Call 520-677-2357"
+   },
+   "pill": "Same-day appointments &middot; new patients welcome &middot; emergencies seen fast",
+   "headline": "Your smile starts here — top-rated dental care in Tucson.",
+   "lede": "Prompt, personalized care with an honest health focus. From routine cleanings to restorative work, your Tucson team answers the phone and gets you booked.",
+   "cta_primary": "Call to book today",
+   "cta_secondary": [
+    "Contact us online",
+    "https://mydentisttucson.com/contact/"
+   ],
+   "trust": [
+    "Top-rated Tucson dentists",
+    "Same-day &amp; emergency slots",
+    "5577 N Oracle Rd location"
+   ],
+   "services_title": "Care we provide",
+   "cards": [
+    {
+     "h": "Family Dentistry",
+     "p": "Cleanings, exams and preventive care for every age under one roof."
+    },
+    {
+     "h": "Restorative",
+     "p": "Crowns, fillings and tooth repair that looks and feels natural."
+    },
+    {
+     "h": "Emergency Dental",
+     "p": "Pain or a knocked-out tooth? Call — same-day when clinically possible."
+    },
+    {
+     "h": "Cosmetic",
+     "p": "Whitening and smile makeovers to book between checkups."
+    }
+   ],
+   "locations": "North Tucson office: 5577 N Oracle Rd, Tucson, AZ<br>Main: <a href=\"tel:+15206772357\">(520) 677-2357</a> &middot; Second line: <a href=\"tel:+15207276766\">(520) 727-6766</a>",
+   "bar": {
+    "t": "Tooth pain can't wait until next week.",
+    "s": "Same-day appointments — the fastest way in is a phone call.",
+    "href": "tel:+15206772357",
+    "cta": "Call Now"
+   }
+  },
+  {
+   "slug": "tucsonplumbingsolutions",
+   "theme": "urgency",
+   "title": "Tucson Plumbing Solutions | Plumber in Tucson, AZ",
+   "desc": "Fast, reliable plumbing in Tucson, AZ. Repairs, water heaters, drains and emergencies. Call (520) 367-4744 for a same-day visit.",
+   "mark": "TP",
+   "name": "Tucson Plumbing Solutions",
+   "tagline": "Plumber &middot; Tucson, AZ &middot; same-day service",
+   "site": "https://tucsonplumbingsolutions.com",
+   "phone": {
+    "dial": "520-367-4744",
+    "label": "Call (520) 367-4744"
+   },
+   "pill": "Same-day dispatch &middot; upfront pricing &middot; best plumbing service in your area",
+   "headline": "Fast, reliable plumbing in Tucson — fixed right the first visit.",
+   "lede": "Leaky pipes, clogged drains, water-heater failures: one call and a licensed Tucson plumber is on the way, with the parts to finish the job.",
+   "cta_primary": "Call for same-day service",
+   "cta_secondary": [
+    "Request a visit online",
+    "https://tucsonplumbingsolutions.com"
+   ],
+   "trust": [
+    "Licensed &amp; insured in AZ",
+    "Upfront quotes — no surprises",
+    "Water-heater specialists"
+   ],
+   "services_title": "What we fix",
+   "cards": [
+    {
+     "h": "Plumbing Repair",
+     "p": "Leaks, fixtures, re-pipes and rough-in work done on the first visit."
+    },
+    {
+     "h": "Water Heaters",
+     "p": "Repair, tune-ups and full replacement — tank and tankless."
+    },
+    {
+     "h": "Drains &amp; Sewer",
+     "p": "Slow drains to main-line clogs, cleared and camera-checked."
+    },
+    {
+     "h": "Emergency Calls",
+     "p": "Burst pipe at midnight? Call now — urgent triage over the phone."
+    }
+   ],
+   "locations": "Serving all of Tucson, AZ &middot; <a href=\"tel:+15203674744\">(520) 367-4744</a>",
+   "bar": {
+    "t": "Water where it shouldn't be? Stop it now.",
+    "s": "Every hour a leak runs, the bill grows. One call starts the fix.",
+    "href": "tel:+15203674744",
+    "cta": "Call Now — (520) 367-4744"
+   }
+  },
+  {
+   "slug": "lippmanrecupero",
+   "theme": "corporate",
+   "title": "Debt Collection & Recovery Service | Lippman Recupero",
+   "desc": "Nationwide debt collection and recovery services. Credit unions, healthcare, hospitality and commercial accounts. Call (520) 628-4036.",
+   "mark": "LR",
+   "name": "Lippman Recupero",
+   "tagline": "Nationwide debt collection &amp; recovery",
+   "site": "https://lippmanrecupero.com",
+   "phone": {
+    "dial": "520-628-4036",
+    "label": "Call 520-628-4036"
+   },
+   "pill": "FDCPA-compliant &middot; nationwide network &middot; recovery-focused",
+   "headline": "We help you recover your debts — professionally, nationwide.",
+   "lede": "Ethical, persistent collection for credit unions, hospitals, hospitality and commercial clients. Your relationship with the debtor stays intact; the balance gets resolved.",
+   "cta_primary": "Talk to a recovery specialist",
+   "cta_secondary": [
+    "Our services",
+    "https://lippmanrecupero.com/our-services/"
+   ],
+   "trust": [
+    "Compliant, documented process",
+    "Multi-industry experience",
+    "Reporting you can audit"
+   ],
+   "services_title": "What we handle",
+   "cards": [
+    {
+     "h": "Credit Union Collections",
+     "p": "Member-friendly recovery programs built for co-op portfolios."
+    },
+    {
+     "h": "Hospital &amp; Medical",
+     "p": "Patient balances pursued with care and full compliance."
+    },
+    {
+     "h": "Hospitality",
+     "p": "Folio and no-show recovery for hotels and venues."
+    },
+    {
+     "h": "Commercial Accounts",
+     "p": "B2B aged receivables, negotiated to resolution."
+    }
+   ],
+   "locations": "Nationwide service &middot; Tucson office: <a href=\"tel:+15206284036\">(520) 628-4036</a> &middot; alternate: <a href=\"tel:+18455162232\">(845) 516-2232</a>",
+   "bar": {
+    "t": "Recover what you are owed.",
+    "s": "Send one account and see the difference a compliant process makes.",
+    "href": "tel:+15206284036",
+    "cta": "Call 520-628-4036"
+   }
+  },
+  {
+   "slug": "downtobid",
+   "theme": "corporate",
+   "title": "AI Construction Bidding Software for GCs & Subs | Downtobid",
+   "desc": "Stop losing bids to your inbox. Downtobid builds bid packages and sends ITBs in minutes, connecting GCs and qualified subs with AI.",
+   "mark": "DB",
+   "name": "Downtobid",
+   "tagline": "AI construction bidding &middot; GCs &amp; subs",
+   "site": "https://downtobid.com",
+   "phone": null,
+   "pill": "From plans to invites in minutes",
+   "headline": "Stop losing bids to your inbox.",
+   "lede": "Downtobid reads your plans, assembles the bid package and invites qualified subcontractors automatically — so GCs fill scopes and subs get the right jobs.",
+   "cta_primary": "Book a demo",
+   "cta_secondary": [
+    "See how it works",
+    "https://downtobid.com"
+   ],
+   "trust": [
+    "Bid packages in minutes",
+    "Pre-qualified sub network",
+    "Built for how subs actually work"
+   ],
+   "services_title": "How it works",
+   "cards": [
+    {
+     "h": "Upload Plans",
+     "p": "Drop in drawings and specs — AI extracts the scopes of work."
+    },
+    {
+     "h": "Build the Package",
+     "p": "Assemble invitation-to-bid packages in minutes, not days."
+    },
+    {
+     "h": "Invite Qualified Subs",
+     "p": "Reach the right trades from a network that actually responds."
+    },
+    {
+     "h": "Compare Bids",
+     "p": "Apples-to-apples pricing back in one dashboard."
+    }
+   ],
+   "locations": "Online platform serving commercial construction nationwide &middot; <a href=\"https://downtobid.com\">downtobid.com</a>",
+   "bar": {
+    "t": "From plans to invites in minutes.",
+    "s": "See the pipeline your competitors are already using.",
+    "href": "https://downtobid.com",
+    "cta": "Book a demo"
+   }
+  },
+  {
+   "slug": "aloyalcompanion",
+   "theme": "trust",
+   "title": "A Loyal Companion - Canine Mobility & Swim Center in Tucson",
+   "desc": "Canine mobility rehab and hydrotherapy in Tucson. Neck, back, spine and stifle recovery with swimming — every journey begins with a conversation. 520-448-3548.",
+   "mark": "LC",
+   "name": "A Loyal Companion",
+   "tagline": "Canine mobility &amp; swim center &middot; Tucson",
+   "site": "https://aloyalcompanion.com",
+   "phone": {
+    "dial": "520-448-3548",
+    "label": "Call 520-448-3548"
+   },
+   "pill": "Every mobility journey begins with a conversation",
+   "headline": "Your partner on the path to better mobility.",
+   "lede": "Underwater treadmills, swim therapy and a plan mapped for your dog — neck, back, spine, stifle and post-surgical recovery, guided by specialists who love dogs.",
+   "cta_primary": "Call to start the plan",
+   "cta_secondary": [
+    "Our approach",
+    "https://aloyalcompanion.com"
+   ],
+   "trust": [
+    "Hydrotherapy-certified staff",
+    "Plans mapped to your dog",
+    "Referral &amp; post-op friendly"
+   ],
+   "services_title": "Conditions we help",
+   "cards": [
+    {
+     "h": "Neck, Back, Spine",
+     "p": "Graduated water-assisted exercise to rebuild support and relieve pain."
+    },
+    {
+     "h": "Stifle (Knee)",
+     "p": "Pre- and post-TPLO/TPLO conditioning that restores stride."
+    },
+    {
+     "h": "Post-Surgical Rehab",
+     "p": "Safe return-to-motion programs coordinated with your vet."
+    },
+    {
+     "h": "Senior &amp; Weight",
+     "p": "Low-impact swimming for ageing joints and fitness resets."
+    }
+   ],
+   "locations": "Tucson, AZ &middot; <a href=\"tel:+15204483548\">(520) 448-3548</a> &middot; <a href=\"https://aloyalcompanion.com\">aloyalcompanion.com</a>",
+   "bar": {
+    "t": "Mapping out a plan that's right for you and your dog.",
+    "s": "It starts with a five-minute conversation.",
+    "href": "tel:+15204483548",
+    "cta": "Call 520-448-3548"
+   }
+  },
+  {
+   "slug": "codeblueaz",
+   "theme": "urgency",
+   "title": "Plumbers Tucson AZ | 5 Star Rated | Code Blue Plumbing",
+   "desc": "20 years of expert plumbing in Tucson and Phoenix. 5-star rated. Water heaters, drains, repipes, emergencies. Call 520-297-9949.",
+   "mark": "CB",
+   "name": "Code Blue Plumbing",
+   "tagline": "5-star rated plumbers &middot; Tucson &amp; Phoenix",
+   "site": "https://codeblueaz.com",
+   "phone": {
+    "dial": "520-297-9949",
+    "label": "Call 520-297-9949"
+   },
+   "pill": "20 years in business &middot; 5-star rated &middot; same-day dispatch",
+   "headline": "Two decades of expert plumbing — and the reviews to show it.",
+   "lede": "From a running toilet to a full re-pipe, Code Blue shows up on time, quotes before work starts, and finishes the job Tucson trusts.",
+   "cta_primary": "Call for a same-day visit",
+   "cta_secondary": [
+    "Book online",
+    "https://codeblueaz.com"
+   ],
+   "trust": [
+    "5-star rated",
+    "20 years experience",
+    "Tucson &amp; Phoenix crews"
+   ],
+   "services_title": "What we do",
+   "cards": [
+    {
+     "h": "Emergency Plumbing",
+     "p": "Burst pipes, sewage backups, no-water days — priority dispatch."
+    },
+    {
+     "h": "Water Heaters",
+     "p": "Repair and replacement, tank and tankless, most within a day."
+    },
+    {
+     "h": "Drains &amp; Sewer",
+     "p": "Clearing, camera inspection, trenchless sewer repair."
+    },
+    {
+     "h": "Repipes &amp; Remodels",
+     "p": "Whole-home re-pipes and fixture work done to code."
+    }
+   ],
+   "locations": "Tucson: <a href=\"tel:+15202979949\">(520) 297-9949</a><br>Phoenix line: <a href=\"tel:+19284432937\">(928) 443-2937</a>",
+   "bar": {
+    "t": "5-star plumbing starts with one call.",
+    "s": "Tell us what's leaking — we'll tell you what it costs before we touch it.",
+    "href": "tel:+15202979949",
+    "cta": "Call Now — 520-297-9949"
+   }
+  },
+  {
+   "slug": "myazlawyers",
+   "theme": "trust",
+   "title": "Free Consult w Arizona Lawyers | My AZ Lawyers - Call (480) 448-9800",
+   "desc": "Top-rated Arizona law office: personal injury, family law, bankruptcy, criminal defense. Payment plans & flat rates. Offices across Phoenix & Tucson. (480) 448-9800.",
+   "mark": "AZ",
+   "name": "My AZ Lawyers",
+   "tagline": "Top-rated Arizona law office &middot; Phoenix &amp; Tucson",
+   "site": "https://myazlawyers.com",
+   "phone": {
+    "dial": "480-448-9800",
+    "label": "Call (480) 448-9800"
+   },
+   "pill": "Free consultation &middot; payment plans &amp; financing &middot; $500 down to start",
+   "headline": "Arizona lawyers who answer the phone — injury, family and criminal defense.",
+   "lede": "Car accidents, custody and divorce, bankruptcy, criminal charges — handled from offices across the Valley and Tucson, with flat-rate options and real payment plans.",
+   "cta_primary": "Free consultation — tap to call",
+   "cta_secondary": [
+    "Start a case online",
+    "https://myazlawyers.com/contact/"
+   ],
+   "trust": [
+    "Top-rated AZ law office",
+    "Financing &amp; payment plans",
+    "One number, statewide"
+   ],
+   "services_title": "Practice areas",
+   "cards": [
+    {
+     "h": "Personal Injury",
+     "p": "Car, truck and motorcycle accidents — no fees unless we win."
+    },
+    {
+     "h": "Family Law",
+     "p": "Custody, divorce and support with a direct line to your attorney."
+    },
+    {
+     "h": "Criminal Defense",
+     "p": "DUI and charges defended in courts across Arizona."
+    },
+    {
+     "h": "Bankruptcy",
+     "p": "Chapter 7 &amp; 13 filings, flat rates, $500-down starts."
+    }
+   ],
+   "locations": "Phoenix &middot; Mesa &middot; Glendale &middot; Avondale &middot; Scottsdale &middot; Tempe &middot; Chandler &middot; Tucson<br>Main: <a href=\"tel:+14804489800\">(480) 448-9800</a> &middot; Alternate: <a href=\"tel:+14804121504\">(480) 412-1504</a>",
+   "bar": {
+    "t": "Ready to talk to an Arizona attorney today?",
+    "s": "Free consultation — most cases start with a 10-minute call.",
+    "href": "tel:+14804489800",
+    "cta": "Call (480) 448-9800"
+   }
+  },
+  {
+   "slug": "borovac",
+   "theme": "trust",
+   "title": "Yorkville Dentists at Borovac Dentistry at Bay Bloor Toronto",
+   "desc": "Borovac Dentistry — general, cosmetic and restorative dentistry in Yorkville, Toronto (Bay & Bloor). Call 416-922-1012 for new-patient appointments.",
+   "mark": "BV",
+   "name": "Borovac Dentistry",
+   "tagline": "Yorkville dentist &middot; Bay &amp; Bloor, Toronto",
+   "site": "https://borovacdentistry.com",
+   "phone": {
+    "dial": "416-922-1012",
+    "label": "Call 416-922-1012"
+   },
+   "pill": "New patients welcome &middot; modern techniques &middot; Yorkville, Toronto",
+   "headline": "Delivering the art &amp; science of total dental health.",
+   "lede": "A Yorkville practice built on gentle, thorough care — from routine checkups to crowns, implants and smile design, at Bay &amp; Bloor.",
+   "cta_primary": "Call to book",
+   "cta_secondary": [
+    "Book online",
+    "https://borovacdentistry.com/contact/"
+   ],
+   "trust": [
+    "Serving Yorkville for years",
+    "General + cosmetic + surgical",
+    "Same-week new-patient exams"
+   ],
+   "services_title": "Our services",
+   "cards": [
+    {
+     "h": "General Dentistry",
+     "p": "Exams, cleanings and preventive care that keep small issues small."
+    },
+    {
+     "h": "Crowns &amp; Bridges",
+     "p": "Tooth-coloured restorations, milled and fitted with precision."
+    },
+    {
+     "h": "Cosmetic Dentistry",
+     "p": "Whitening, veneers and smile makeovers designed around your face."
+    },
+    {
+     "h": "Dental Implants",
+     "p": "Permanent replacements for missing teeth, planned and placed in-house."
+    }
+   ],
+   "locations": "Yorkville, Toronto (Bay &amp; Bloor) &middot; <a href=\"tel:+14169221012\">(416) 922-1012</a> &middot; <a href=\"https://borovacdentistry.com\">borovacdentistry.com</a>",
+   "bar": {
+    "t": "Looking for a Yorkville dentist near Bay-Bloor?",
+    "s": "New-patient exams usually book within the same week.",
+    "href": "tel:+14169221012",
+    "cta": "Call 416-922-1012"
+   }
+  },
+  {
+   "slug": "ed365",
+   "theme": "urgency",
+   "title": "Emergency Dental 365 | 24/7 Emergency Dentist in Toronto",
+   "desc": "24/7 emergency dentist in Toronto. Knocked-out teeth, severe pain, abscess, dental trauma — seen day or night. Call 416-929-2253 now.",
+   "mark": "E3",
+   "name": "Emergency Dental 365",
+   "tagline": "24/7 emergency dentist &middot; Toronto",
+   "site": "https://emergency-dental-365.com",
+   "phone": {
+    "dial": "416-929-2253",
+    "label": "Call 416-929-2253"
+   },
+   "pill": "Open 24/7 &middot; day, nights, weekends &middot; walk-ins for true emergencies",
+   "headline": "Dental emergency right now? We are awake.",
+   "lede": "Severe pain, a knocked-out tooth, a lost crown or swelling that keeps you up — Emergency Dental 365 treats dental trauma any hour, any day, in Toronto.",
+   "cta_primary": "Call now — we answer 24/7",
+   "cta_secondary": [
+    "Directions &amp; hours",
+    "https://emergency-dental-365.com"
+   ],
+   "trust": [
+    "24/7/365 emergency care",
+    "Same-visit relief for most cases",
+    "Pain-free first, paper later"
+   ],
+   "services_title": "What we see at 2 a.m.",
+   "cards": [
+    {
+     "h": "Dental Trauma",
+     "p": "Knocked-out, cracked or displaced teeth — minutes matter, call immediately."
+    },
+    {
+     "h": "Severe Toothache",
+     "p": "Diagnosed and treated the same visit so you sleep tonight."
+    },
+    {
+     "h": "Abscess &amp; Swelling",
+     "p": "Infection drained and stabilised before it spreads."
+    },
+    {
+     "h": "Lost Fillings/Crowns",
+     "p": "Temporary fixes today, permanent fit booked around your schedule."
+    }
+   ],
+   "locations": "Toronto, ON &middot; 24/7 line: <a href=\"tel:+14169292253\">(416) 929-2253</a>",
+   "bar": {
+    "t": "It's 2 a.m. and your tooth is screaming.",
+    "s": "Don't wait for morning — the emergency line is open now.",
+    "href": "tel:+14169292253",
+    "cta": "Call Now — 416-929-2253"
+   }
+  }
+ ]
+}
