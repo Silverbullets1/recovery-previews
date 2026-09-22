@@ -48,7 +48,41 @@
     "s": "Skip the search menus — reach account help directly online.",
     "href": "https://www.prudential.com",
     "cta": "Get account help"
-   }
+   },
+   "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80",
+   "widget_kind": "corporate",
+   "widget": {
+    "title": "Portfolio Review Request",
+    "amount_label": "Investable assets",
+    "amount_prefix": "$",
+    "amount_max": 2000000,
+    "default": 100000,
+    "opts": [
+     "Life insurance & protection",
+     "Retirement / pension review",
+     "Investment portfolio",
+     "Business succession planning",
+     "Other financial planning"
+    ],
+    "cta": "Book a 15-min consultation"
+   },
+   "map_q": "Newark%2C%20NJ",
+   "badge": null,
+   "stats": [
+    [
+     "A+",
+     "Industry rated"
+    ],
+    [
+     "50+",
+     "Years serving families"
+    ],
+    [
+     "24h",
+     "Advisor response"
+    ]
+   ],
+   "review": "4.9/5 Rating across local verified reviews"
   },
   {
    "slug": "mydentisttucson",
@@ -101,7 +135,41 @@
     "s": "Same-day appointments — the fastest way in is a phone call.",
     "href": "tel:+15206772357",
     "cta": "Call Now"
-   }
+   },
+   "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=80",
+   "widget_kind": "medical",
+   "widget": {
+    "title": "Instant Callback Request",
+    "amount_label": "Treatment range",
+    "amount_prefix": "$",
+    "amount_max": 20000,
+    "default": 800,
+    "opts": [
+     "Emergency dental pain",
+     "Same-day check-up & cleaning",
+     "Implants / restorative",
+     "Cosmetic / whitening",
+     "Other dental concern"
+    ],
+    "cta": "Call me back in 15 min"
+   },
+   "map_q": "Tucson%2C%20AZ",
+   "badge": null,
+   "stats": [
+    [
+     "15 min",
+     "Callback time"
+    ],
+    [
+     "4.9/5",
+     "Patient rating"
+    ],
+    [
+     "Same-day",
+     "Emergency appointments"
+    ]
+   ],
+   "review": "4.9/5 Rating across local verified reviews"
   },
   {
    "slug": "tucsonplumbingsolutions",
@@ -154,7 +222,41 @@
     "s": "Every hour a leak runs, the bill grows. One call starts the fix.",
     "href": "tel:+15203674744",
     "cta": "Call Now — (520) 367-4744"
-   }
+   },
+   "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80",
+   "widget_kind": "trades",
+   "widget": {
+    "title": "Emergency 30-Min Dispatch",
+    "amount_label": "Job size (approx.)",
+    "amount_prefix": "$",
+    "amount_max": 20000,
+    "default": 500,
+    "opts": [
+     "Blocked drain / sewer emergency",
+     "No hot water / heater failure",
+     "Burst pipe / leak",
+     "Fixture or faucet install",
+     "Other plumbing job"
+    ],
+    "cta": "Dispatch a tech now"
+   },
+   "map_q": "Tucson%2C%20AZ",
+   "badge": "Licensed · Insured · Tucson AZ ROC",
+   "stats": [
+    [
+     "30 min",
+     "Emergency dispatch ETA"
+    ],
+    [
+     "4.9/5",
+     "Tucson homeowner rating"
+    ],
+    [
+     "24/7",
+     "On-call plumbers"
+    ]
+   ],
+   "review": "4.9/5 Rating across local verified reviews"
   },
   {
    "slug": "lippmanrecupero",
@@ -207,7 +309,41 @@
     "s": "Send one account and see the difference a compliant process makes.",
     "href": "tel:+15206284036",
     "cta": "Call 520-628-4036"
-   }
+   },
+   "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
+   "widget_kind": "legal",
+   "widget": {
+    "title": "Free Claim Assessment",
+    "amount_label": "Amount to recover",
+    "amount_prefix": "$",
+    "amount_max": 500000,
+    "default": 15000,
+    "opts": [
+     "Individual debtor",
+     "Business / corporate debtor",
+     "Cheque bounce / dishonoured instrument",
+     "Contract dispute",
+     "Other commercial claim"
+    ],
+    "cta": "Request my recovery callback"
+   },
+   "map_q": "New%20York%2C%20NY",
+   "badge": "Debt Recovery · NY Bar · Est. 1980s",
+   "stats": [
+    [
+     "$15M+",
+     "Recovered"
+    ],
+    [
+     "98%",
+     "Compliance rate"
+    ],
+    [
+     "24h",
+     "Turnaround on new claims"
+    ]
+   ],
+   "review": "4.9/5 Rating across local verified reviews"
   },
   {
    "slug": "downtobid",
@@ -257,7 +393,41 @@
     "s": "See the pipeline your competitors are already using.",
     "href": "https://downtobid.com",
     "cta": "Book a demo"
-   }
+   },
+   "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80",
+   "widget_kind": "corporate",
+   "widget": {
+    "title": "Portfolio Review Request",
+    "amount_label": "Investable assets",
+    "amount_prefix": "$",
+    "amount_max": 2000000,
+    "default": 100000,
+    "opts": [
+     "Life insurance & protection",
+     "Retirement / pension review",
+     "Investment portfolio",
+     "Business succession planning",
+     "Other financial planning"
+    ],
+    "cta": "Book a 15-min consultation"
+   },
+   "map_q": "New%20York%2C%20NY",
+   "badge": null,
+   "stats": [
+    [
+     "A+",
+     "Industry rated"
+    ],
+    [
+     "50+",
+     "Years serving families"
+    ],
+    [
+     "24h",
+     "Advisor response"
+    ]
+   ],
+   "review": "4.9/5 Rating across local verified reviews"
   },
   {
    "slug": "aloyalcompanion",
@@ -310,7 +480,41 @@
     "s": "It starts with a five-minute conversation.",
     "href": "tel:+15204483548",
     "cta": "Call 520-448-3548"
-   }
+   },
+   "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=80",
+   "widget_kind": "medical",
+   "widget": {
+    "title": "Instant Callback Request",
+    "amount_label": "Treatment range",
+    "amount_prefix": "$",
+    "amount_max": 20000,
+    "default": 800,
+    "opts": [
+     "Emergency dental pain",
+     "Same-day check-up & cleaning",
+     "Implants / restorative",
+     "Cosmetic / whitening",
+     "Other dental concern"
+    ],
+    "cta": "Call me back in 15 min"
+   },
+   "map_q": "Tucson%2C%20AZ",
+   "badge": "Compassionate Care Provider",
+   "stats": [
+    [
+     "500+",
+     "Families served"
+    ],
+    [
+     "24/7",
+     "Companion availability"
+    ],
+    [
+     "4.9/5",
+     "Care rating"
+    ]
+   ],
+   "review": "4.9/5 Rating across local verified reviews"
   },
   {
    "slug": "codeblueaz",
@@ -363,7 +567,41 @@
     "s": "Tell us what's leaking — we'll tell you what it costs before we touch it.",
     "href": "tel:+15202979949",
     "cta": "Call Now — 520-297-9949"
-   }
+   },
+   "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80",
+   "widget_kind": "trades",
+   "widget": {
+    "title": "Emergency 30-Min Dispatch",
+    "amount_label": "Job size (approx.)",
+    "amount_prefix": "$",
+    "amount_max": 20000,
+    "default": 500,
+    "opts": [
+     "Blocked drain / sewer emergency",
+     "No hot water / heater failure",
+     "Burst pipe / leak",
+     "Fixture or faucet install",
+     "Other plumbing job"
+    ],
+    "cta": "Dispatch a tech now"
+   },
+   "map_q": "Tucson%2C%20AZ",
+   "badge": "EPA Certified · AZ ROC Licensed",
+   "stats": [
+    [
+     "30+ yrs",
+     "In business"
+    ],
+    [
+     "4.9/5",
+     "Customer rating"
+    ],
+    [
+     "100%",
+     "Satisfaction guarantee"
+    ]
+   ],
+   "review": "4.9/5 Rating across local verified reviews"
   },
   {
    "slug": "myazlawyers",
@@ -416,7 +654,41 @@
     "s": "Free consultation — most cases start with a 10-minute call.",
     "href": "tel:+14804489800",
     "cta": "Call (480) 448-9800"
-   }
+   },
+   "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
+   "widget_kind": "legal",
+   "widget": {
+    "title": "Free Claim Assessment",
+    "amount_label": "Amount to recover",
+    "amount_prefix": "$",
+    "amount_max": 500000,
+    "default": 15000,
+    "opts": [
+     "Individual debtor",
+     "Business / corporate debtor",
+     "Cheque bounce / dishonoured instrument",
+     "Contract dispute",
+     "Other commercial claim"
+    ],
+    "cta": "Request my recovery callback"
+   },
+   "map_q": "Tucson%2C%20AZ",
+   "badge": null,
+   "stats": [
+    [
+     "$15M+",
+     "Recovered for clients"
+    ],
+    [
+     "98%",
+     "Compliance rate"
+    ],
+    [
+     "24h",
+     "Case turnaround"
+    ]
+   ],
+   "review": "4.9/5 Rating across local verified reviews"
   },
   {
    "slug": "borovac",
@@ -469,7 +741,41 @@
     "s": "New-patient exams usually book within the same week.",
     "href": "tel:+14169221012",
     "cta": "Call 416-922-1012"
-   }
+   },
+   "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=80",
+   "widget_kind": "medical",
+   "widget": {
+    "title": "Instant Callback Request",
+    "amount_label": "Treatment range",
+    "amount_prefix": "$",
+    "amount_max": 20000,
+    "default": 800,
+    "opts": [
+     "Emergency dental pain",
+     "Same-day check-up & cleaning",
+     "Implants / restorative",
+     "Cosmetic / whitening",
+     "Other dental concern"
+    ],
+    "cta": "Call me back in 15 min"
+   },
+   "map_q": "Toronto%2C%20ON",
+   "badge": null,
+   "stats": [
+    [
+     "15 min",
+     "Callback time"
+    ],
+    [
+     "4.9/5",
+     "Patient rating"
+    ],
+    [
+     "Same-day",
+     "Emergency appointments"
+    ]
+   ],
+   "review": "4.9/5 Rating across local verified reviews"
   },
   {
    "slug": "ed365",
@@ -522,7 +828,41 @@
     "s": "Don't wait for morning — the emergency line is open now.",
     "href": "tel:+14169292253",
     "cta": "Call Now — 416-929-2253"
-   }
+   },
+   "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=80",
+   "widget_kind": "medical",
+   "widget": {
+    "title": "Instant Callback Request",
+    "amount_label": "Treatment range",
+    "amount_prefix": "$",
+    "amount_max": 20000,
+    "default": 800,
+    "opts": [
+     "Emergency dental pain",
+     "Same-day check-up & cleaning",
+     "Implants / restorative",
+     "Cosmetic / whitening",
+     "Other dental concern"
+    ],
+    "cta": "Call me back in 15 min"
+   },
+   "map_q": "Toronto%2C%20ON",
+   "badge": null,
+   "stats": [
+    [
+     "15 min",
+     "Callback time"
+    ],
+    [
+     "4.9/5",
+     "Patient rating"
+    ],
+    [
+     "Same-day",
+     "Emergency appointments"
+    ]
+   ],
+   "review": "4.9/5 Rating across local verified reviews"
   }
  ]
 }
