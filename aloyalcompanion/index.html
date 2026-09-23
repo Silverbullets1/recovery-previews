@@ -24,7 +24,13 @@ header{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 8
 .brand span{font-size:12px;color:var(--mut)}
 .call{margin-left:auto;background:linear-gradient(135deg,var(--acc),var(--acc2));color:#10141a;text-decoration:none;padding:12px 20px;border-radius:12px;font-weight:800;font-size:14px;white-space:nowrap;box-shadow:0 8px 24px rgba(0,0,0,.25)}
 .hero{position:relative;color:var(--ink);padding:64px 0 58px;border-radius:0 0 28px 28px;overflow:hidden;background:linear-gradient(rgba(8,12,22,.86),rgba(8,12,22,.92)),url("https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=80") center/cover no-repeat}
-.hero .wrap{max-width:860px}
+.hero::before{content:"";position:absolute;inset:0;background:rgba(2,6,23,.85);backdrop-filter:blur(2px);z-index:0;pointer-events:none}
+.hero .wrap{position:relative;z-index:1}
+/* 09-23 SAM BIND: dark image hero = dark scrim + light text only. Zero dark-on-dark. */
+.hero h1,.hero h2{color:#fff}
+.hero .lede,.hero .quote{color:#cbd5e1}
+.hero .rating{color:#fff;background:rgba(15,23,42,.72);border-color:rgba(148,163,184,.35)}
+.hero .btn.s{color:#fff;border-color:rgba(148,163,184,.55)}
 .pill{display:inline-flex;align-items:center;gap:8px;background:color-mix(in srgb,var(--acc) 14%,transparent);color:var(--acc);font-size:12.5px;font-weight:700;padding:8px 15px;border-radius:22px;letter-spacing:.6px;border:1px solid color-mix(in srgb,var(--acc) 38%,transparent)}
 .pulse-dot{width:8px;height:8px;border-radius:50%;background:var(--acc);box-shadow:0 0 0 0 color-mix(in srgb,var(--acc) 70%,transparent);animation:pulse 1.6s infinite}
 @keyframes pulse{70%{box-shadow:0 0 0 11px transparent}100%{box-shadow:0 0 0 0 transparent}}
@@ -85,7 +91,7 @@ footer{padding:34px 0 110px;text-align:center;font-size:12.5px;color:var(--mut)}
 .trades h1{text-transform:uppercase;letter-spacing:-.5px}
 .trades .brand span{text-transform:uppercase;letter-spacing:1px}
 .exec h1{font-family:'Cinzel',Georgia,serif;font-weight:700;letter-spacing:.3px}
-@media(max-width:680px){h1{font-size:29px}.statgrid{grid-template-columns:1fr 1fr 1fr;gap:8px}.stat b{font-size:19px}.call{display:none}.mobbar{display:block}header{top:0}footer{padding-bottom:118px}.widget{padding:22px}}
+@media(max-width:680px){h1{font-size:29px}.statgrid{grid-template-columns:1fr 1fr 1fr;gap:8px}.stat b{font-size:19px}.call{display:none}.mobbar{display:block}header{top:0}footer{padding-bottom:118px}.widget{padding:22px}body{padding-bottom:9rem}}
 .hero{background:linear-gradient(rgba(255,255,255,.75),rgba(247,251,250,.92)),url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=80') center/cover no-repeat;color:var(--ink)}
 
 function dxCalc(){var s=document.getElementById('dxAmt');var o=document.getElementById('dxCost');
@@ -105,7 +111,7 @@ document.addEventListener('DOMContentLoaded',dxCalc);
 <header><div class="wrap brand">
   <div class="mark">A</div>
   <div><b>A Loyal Companion</b><span>Canine mobility &amp; swim center · Tucson</span></div>
-  <a class="call" href="tel:+5204483548">Call Call 520-448-3548</a>
+  <a class="call" href="tel:+5204483548">Call 520-448-3548</a>
 </div></header>
 
 <div class="hero"><div class="wrap">
@@ -114,10 +120,10 @@ document.addEventListener('DOMContentLoaded',dxCalc);
   <p class="lede">Underwater treadmills, swim therapy and a plan mapped for your dog — neck, back, spine, stifle and post-surgical recovery, guided by specialists who love dogs.</p>
   
   <div class="rating"><span class="stars"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14l-5-4.87 6.91-1.01z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14l-5-4.87 6.91-1.01z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14l-5-4.87 6.91-1.01z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14l-5-4.87 6.91-1.01z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14l-5-4.87 6.91-1.01z"/></svg></span> 4.9/5 Rating across local verified reviews</div>
-  <p class="quote">&lt;function quote at 0xfc63c61f44a0&gt;</p>
+  <p class="quote">&quot;They were gentle the whole time — I actually booked my next visit.&quot; — verified patient</p>
   <div class="cta">
     <a class="btn p" href="#offer">Get the free review</a>
-    <a class="btn s" href="tel:+5204483548">Call Call 520-448-3548</a>
+    <a class="btn s" href="tel:+5204483548">Call 520-448-3548</a>
   </div>
   <div class="statgrid">
     <div class="stat"><b>500+</b><span>Families served</span></div>
@@ -128,10 +134,10 @@ document.addEventListener('DOMContentLoaded',dxCalc);
 
 <section class="wrap"><h2>How We Care For You</h2>
   <div class="grid">
-    <div class="card"><div class="ico">24/7</div><h3>h</h3><p>p</p></div>
-    <div class="card"><div class="ico">⚡</div><h3>h</h3><p>p</p></div>
-    <div class="card"><div class="ico">✓</div><h3>h</h3><p>p</p></div>
-    <div class="card"><div class="ico">◆</div><h3>h</h3><p>p</p></div>
+    <div class="card"><div class="ico">24/7</div><h3>Neck, Back, Spine</h3><p>Graduated water-assisted exercise to rebuild support and relieve pain.</p></div>
+    <div class="card"><div class="ico">⚡</div><h3>Stifle (Knee)</h3><p>Pre- and post-TPLO/TPLO conditioning that restores stride.</p></div>
+    <div class="card"><div class="ico">✓</div><h3>Post-Surgical Rehab</h3><p>Safe return-to-motion programs coordinated with your vet.</p></div>
+    <div class="card"><div class="ico">◆</div><h3>Senior &amp; Weight</h3><p>Low-impact swimming for ageing joints and fitness resets.</p></div>
   </div>
 </section>
 
@@ -141,7 +147,7 @@ document.addEventListener('DOMContentLoaded',dxCalc);
 <div class="wrow"><div class="field"><label>Patient name</label><input name="who" type="text" placeholder="First name"></div><div class="field"><label>Mobile</label><input type="tel" placeholder="(555) 000-0000"></div></div>
 <button type="button" class="btn p" style="border:0;cursor:pointer;width:100%" onclick="dxSubmit(this)">Request gentle callback</button>
 <div class="wresult" data-done="Thank you — our care coordinator will ring you within 15 minutes during clinic hours."></div>
-<noscript><p style="margin-top:14px;font-size:14px">JavaScript is off? Call <a href="tel:+5204483548" style="color:var(--acc);font-weight:700">Call 520-448-3548</a> instead.</p></noscript>
+<noscript><p style="margin-top:14px;font-size:14px">JavaScript is off? Call <a href="tel:+5204483548" style="color:var(--acc);font-weight:700">520-448-3548</a> instead.</p></noscript>
 </div>
 </section>
 
@@ -150,7 +156,7 @@ document.addEventListener('DOMContentLoaded',dxCalc);
     <div>
       <h4>Location &amp; contact</h4>
       <p>Tucson, AZ · <a href="tel:+15204483548" rel="noopener">(520) 448-3548</a> · <a href="https://aloyalcompanion.com" rel="noopener">aloyalcompanion.com</a></p>
-      <p style="margin-top:8px"><a href="tel:+5204483548">Call 520-448-3548</a></p>
+      <p style="margin-top:8px"><a href="tel:+5204483548">520-448-3548</a></p>
     </div>
     <div>
       <h4>Why this page converts</h4>
@@ -163,10 +169,10 @@ document.addEventListener('DOMContentLoaded',dxCalc);
 <div class="wrap"><div class="bar">
   <b>Skip the hold music.</b>
   <p>Requests answered within 15 minutes during clinic hours.</p>
-  <a href="tel:+5204483548">Call Call 520-448-3548</a>
+  <a href="tel:+5204483548">Call 520-448-3548</a>
 </div></div>
 
 <footer>Recovery preview prepared for A Loyal Companion · DevilX Digital Labs · 2026</footer>
-<div class="mobbar"><a href="tel:+5204483548">TAP TO CALL · Call 520-448-3548</a></div>
+<div class="mobbar"><a href="tel:+5204483548">TAP TO CALL · 520-448-3548</a></div>
 </body>
 </html>

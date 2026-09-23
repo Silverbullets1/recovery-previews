@@ -24,7 +24,13 @@ header{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 8
 .brand span{font-size:12px;color:var(--mut)}
 .call{margin-left:auto;background:linear-gradient(135deg,var(--acc),var(--acc2));color:#10141a;text-decoration:none;padding:12px 20px;border-radius:12px;font-weight:800;font-size:14px;white-space:nowrap;box-shadow:0 8px 24px rgba(0,0,0,.25)}
 .hero{position:relative;color:var(--ink);padding:64px 0 58px;border-radius:0 0 28px 28px;overflow:hidden;background:linear-gradient(rgba(8,12,22,.86),rgba(8,12,22,.92)),url("https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80") center/cover no-repeat}
-.hero .wrap{max-width:860px}
+.hero::before{content:"";position:absolute;inset:0;background:rgba(2,6,23,.85);backdrop-filter:blur(2px);z-index:0;pointer-events:none}
+.hero .wrap{position:relative;z-index:1}
+/* 09-23 SAM BIND: dark image hero = dark scrim + light text only. Zero dark-on-dark. */
+.hero h1,.hero h2{color:#fff}
+.hero .lede,.hero .quote{color:#cbd5e1}
+.hero .rating{color:#fff;background:rgba(15,23,42,.72);border-color:rgba(148,163,184,.35)}
+.hero .btn.s{color:#fff;border-color:rgba(148,163,184,.55)}
 .pill{display:inline-flex;align-items:center;gap:8px;background:color-mix(in srgb,var(--acc) 14%,transparent);color:var(--acc);font-size:12.5px;font-weight:700;padding:8px 15px;border-radius:22px;letter-spacing:.6px;border:1px solid color-mix(in srgb,var(--acc) 38%,transparent)}
 .pulse-dot{width:8px;height:8px;border-radius:50%;background:var(--acc);box-shadow:0 0 0 0 color-mix(in srgb,var(--acc) 70%,transparent);animation:pulse 1.6s infinite}
 @keyframes pulse{70%{box-shadow:0 0 0 11px transparent}100%{box-shadow:0 0 0 0 transparent}}
@@ -85,7 +91,7 @@ footer{padding:34px 0 110px;text-align:center;font-size:12.5px;color:var(--mut)}
 .trades h1{text-transform:uppercase;letter-spacing:-.5px}
 .trades .brand span{text-transform:uppercase;letter-spacing:1px}
 .exec h1{font-family:'Cinzel',Georgia,serif;font-weight:700;letter-spacing:.3px}
-@media(max-width:680px){h1{font-size:29px}.statgrid{grid-template-columns:1fr 1fr 1fr;gap:8px}.stat b{font-size:19px}.call{display:none}.mobbar{display:block}header{top:0}footer{padding-bottom:118px}.widget{padding:22px}}
+@media(max-width:680px){h1{font-size:29px}.statgrid{grid-template-columns:1fr 1fr 1fr;gap:8px}.stat b{font-size:19px}.call{display:none}.mobbar{display:block}header{top:0}footer{padding-bottom:118px}.widget{padding:22px}body{padding-bottom:9rem}}
 .hero{background:radial-gradient(50rem 28rem at 80% 0%,rgba(34,211,238,.18),transparent 60%),linear-gradient(rgba(21,24,30,.88),rgba(21,24,30,.94)),url('https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80') center/cover no-repeat}
 
 function dxCalc(){var s=document.getElementById('dxAmt');var o=document.getElementById('dxCost');
@@ -114,7 +120,7 @@ document.addEventListener('DOMContentLoaded',dxCalc);
   <p class="lede">Downtobid reads your plans, assembles the bid package and invites qualified subcontractors automatically — so GCs fill scopes and subs get the right jobs.</p>
   <div style="margin-top:16px"><span class="mono-badge">UPTIME 99.9%</span><span class="mono-badge">SLA &lt;2H</span><span class="mono-badge">API-FIRST</span></div>
   <div class="rating"><span class="stars"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14l-5-4.87 6.91-1.01z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14l-5-4.87 6.91-1.01z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14l-5-4.87 6.91-1.01z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14l-5-4.87 6.91-1.01z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14l-5-4.87 6.91-1.01z"/></svg></span> 4.9/5 Rating across local verified reviews</div>
-  <p class="quote">&lt;function quote at 0xfc63c61f44a0&gt;</p>
+  
   <div class="cta">
     <a class="btn p" href="#offer">Get the free review</a>
   </div>
@@ -127,10 +133,10 @@ document.addEventListener('DOMContentLoaded',dxCalc);
 
 <section class="wrap"><h2 class="mono">CAPABILITY MATRIX</h2>
   <div class="grid">
-    <div class="card"><div class="ico">24/7</div><h3>h</h3><p>p</p></div>
-    <div class="card"><div class="ico">⚡</div><h3>h</h3><p>p</p></div>
-    <div class="card"><div class="ico">✓</div><h3>h</h3><p>p</p></div>
-    <div class="card"><div class="ico">◆</div><h3>h</h3><p>p</p></div>
+    <div class="card"><div class="ico">24/7</div><h3>Upload Plans</h3><p>Drop in drawings and specs — AI extracts the scopes of work.</p></div>
+    <div class="card"><div class="ico">⚡</div><h3>Build the Package</h3><p>Assemble invitation-to-bid packages in minutes, not days.</p></div>
+    <div class="card"><div class="ico">✓</div><h3>Invite Qualified Subs</h3><p>Reach the right trades from a network that actually responds.</p></div>
+    <div class="card"><div class="ico">◆</div><h3>Compare Bids</h3><p>Apples-to-apples pricing back in one dashboard.</p></div>
   </div>
 </section>
 
