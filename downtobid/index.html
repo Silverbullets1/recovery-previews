@@ -9,6 +9,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
 <title>FREE PREVIEW: Downtobid — Mobile Landing Page (Built by DevilX Digital Labs)</title>
 <meta name="description" content="Preview of a high-converting landing page for Downtobid, prepared by DevilX Digital Labs.">
 <style>
@@ -171,5 +173,29 @@ document.addEventListener('DOMContentLoaded',dxCalc);
 
 <footer>Recovery preview prepared for Downtobid · DevilX Digital Labs · 2026</footer>
 <div class="mobbar"><a href="None">TAP TO CALL · </a></div>
+
+<script>
+/* GSAP entrance animations - CLS safe (opacity/transform only, no layout) */
+(function(){
+  if(!window.gsap){return}
+  var st=window.ScrollTrigger; if(st&&gsap.registerPlugin){gsap.registerPlugin(st)}
+  var d=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var hero=document.querySelectorAll('.hero .pill,.hero h1,.hero .lede,.hero .cta,.hero .rating');
+  var cards=document.querySelectorAll('.card');
+  var stats=document.querySelectorAll('.stat b');
+  if(d||!hero.length){return}
+  gsap.from(hero,{y:18,autoAlpha:0,duration:.7,ease:'power2.out',stagger:.08,clearProps:'all'});
+  if(cards.length&&st){gsap.from(cards,{y:24,autoAlpha:0,duration:.6,ease:'power2.out',stagger:.09,clearProps:'all',scrollTrigger:{trigger:'.grid',start:'top 85%'}})}
+  stats.forEach(function(el){
+    var t=el.textContent, m=t.match(/\d+(?:\.\d+)?/);
+    if(!m){return}
+    var n=parseFloat(m[0]), dec=(m[0].indexOf('.')>=0)?1:0;
+    var pre=t.slice(0,m.index), post=t.slice(m.index+m[0].length);
+    var o={v:0};
+    if(st){gsap.to(o,{v:n,duration:1.2,ease:'power1.out',scrollTrigger:{trigger:el,start:'top 90%'},onUpdate:function(){el.textContent=pre+o.v.toFixed(dec)+post}})}
+  });
+})();
+</script>
+
 </body>
 </html>
