@@ -209,5 +209,44 @@ document.addEventListener('DOMContentLoaded',dxCalc);
 })();
 </script>
 
+<!-- LEAD FORM: FormSubmit AJAX relay (direct-to-inbox) -->
+<section id="quote" style="max-width:640px;margin:48px auto;padding:24px;border:1px solid #e2e8f0;border-radius:12px;font-family:system-ui,sans-serif;background:#fff;">
+  <h2 style="margin:0 0 6px;font-size:24px;color:#0f172a;">Request Your Free Quote</h2>
+  <p style="margin:0 0 16px;color:#475569;font-size:14px;">Tell us what you need &mdash; we reply the same business day.</p>
+  <form id="lead-form" style="display:grid;gap:10px;">
+    <input required name="name" placeholder="Your name" style="padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px;">
+    <input required type="email" name="email" placeholder="Email" style="padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px;">
+    <input required name="phone" placeholder="Phone" style="padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px;">
+    <input name="service" placeholder="Service needed" style="padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px;">
+    <textarea name="message" rows="3" placeholder="Details (optional)" style="padding:10px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px;font-family:inherit;"></textarea>
+    <input type="hidden" name="source_page" id="source-page-field">
+    <button type="submit" style="padding:12px;background:#0f172a;color:#fff;border:0;border-radius:8px;font-size:16px;cursor:pointer;">Get My Free Quote</button>
+    <p id="form-status" style="margin:0;font-size:14px;min-height:18px;"></p>
+  </form>
+</section>
+<script>
+(function(){
+  var ENDPOINT='https://formsubmit.co/ajax/bb8654838@gmail.com';
+  var f=document.getElementById('lead-form'); if(!f) return;
+  var st=document.getElementById('form-status');
+  var sp=document.getElementById('source-page-field'); if(sp) sp.value=window.location.href;
+  f.addEventListener('submit', function(e){
+    e.preventDefault();
+    var b=f.querySelector('button[type=submit]'); b.disabled=true; if(st){st.textContent='Sending...'; st.style.color='#475569';}
+    var d={}; new FormData(f).forEach(function(v,k){ if(k!=='source_page') d[k]=v; });
+    fetch(ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify({
+      _subject:'[Preview Lead] '+(d.name||'New Enquiry')+' \u2014 '+(d.service||'General')+' | '+location.hostname,
+      Name:d.name||'',Email:d.email||'',Phone:d.phone||'',Service:d.service||'',Message:d.message||'',
+      Source:document.getElementById('source-page-field')?document.getElementById('source-page-field').value:''
+    })}).then(function(r){
+      var ok=r.ok; return r.json().catch(function(){return{}}).then(function(j){ if(!ok||j.success!=='true') throw new Error('relay '+r.status); });
+    }).then(function(){
+      f.reset(); if(st){st.textContent="Thanks! We'll contact you shortly."; st.style.color='#059669';}
+    }).catch(function(){
+      if(st){st.textContent='Could not send \u2014 please call us instead.'; st.style.color='#dc2626';}
+    }).finally(function(){ b.disabled=false; });
+  });
+})();
+</script>
 </body>
 </html>
